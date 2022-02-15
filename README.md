@@ -1,5 +1,5 @@
 # Predicting realized volatility
-The readme gives a quick overview of the project.
+This ReadMe gives a quick overview of the project.
 The detailed report can be found in the notebook at code/Data_Description_and_Model_Evaluation.ipynb.
 
 ## Project Idea: 
@@ -16,15 +16,17 @@ Realized (return) volatility is the standard deviation of (daily) returns. Reali
 
 ## Notebooks
 * Data_Description_and_Model_Evaluation.ipynb - Main report notebook.
+
 Describes the project idea, literature and data. Compares predictions of the different models (from notebooks below) and concludes.
-* FFN.ipynb: SHORT DESCRIPTION MISSING
-* LSTM.ipynb: LSTM notebook
+* FFN.ipynb: Trains feed-forward neural network model configurations.
+* LSTM.ipynb: 
 The goal is to use lstm network architectures to perform the volatility prediction. 
 We try three different architecture 1.) a simple one layer lstm, 2.) a two layer lstm with additioanl dense layers, 
 3.) a model with a funcitonal API that combines a lstm layer, appropriate for features with time lags, and a dense layers which
 are appropriate for features without time lags.
 We check the performance based on the train data and create prediction results for the validation and test set.
-* * GRU.ipynb: as LSTM notebook with GRU cells instead of LSTM cells.
+* GRU.ipynb: similar to LSTM notebook with GRU cells instead of LSTM cells.
+* data_preprocessing.ipynb: data preprocessing.
 
 ## Authors:
 Erik Senn, Jule Schüttler, Leszek Wächter, Leon Wolf
