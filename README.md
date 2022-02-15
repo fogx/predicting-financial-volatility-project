@@ -16,7 +16,6 @@ Realized (return) volatility is the standard deviation of (daily) returns. Reali
 
 ## Notebooks
 * Data_Description_and_Model_Evaluation.ipynb - Main report notebook.
-
 Describes the project idea, literature and data. Compares predictions of the different models (from notebooks below) and concludes.
 * FFN.ipynb: Trains feed-forward neural network model configurations.
 * LSTM.ipynb: 
