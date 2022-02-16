@@ -17,15 +17,16 @@ Realized (return) volatility is the standard deviation of (daily) returns. Reali
 ## Notebooks
 * Data_Description_and_Model_Evaluation.ipynb - Main report notebook.
 Describes the project idea, literature and data. Compares predictions of the different models (from notebooks below) and concludes.
-* FFN.ipynb: Trains feed-forward neural network model configurations.
-* LSTM.ipynb: 
-The goal is to use lstm network architectures to perform the volatility prediction. 
-We try three different architecture 1.) a simple one layer lstm, 2.) a two layer lstm with additioanl dense layers, 
-3.) a model with a funcitonal API that combines a lstm layer, appropriate for features with time lags, and a dense layers which
-are appropriate for features without time lags.
-We check the performance based on the train data and create prediction results for the validation and test set.
-* GRU.ipynb: similar to LSTM notebook with GRU cells instead of LSTM cells.
-* data_preprocessing.ipynb: data preprocessing.
+* [data_preprocessing.ipynb](https://github.com/fogx/predicting-financial-volatility-project/blob/main/code/data_preprocessing.ipynb): data preprocessing.
+* [FFN.ipynb](https://github.com/fogx/predicting-financial-volatility-project/blob/main/code/FFN.ipynb): Trains feed-forward neural network model configurations.
+* [LSTM.ipynb](LSTM.ipynb): lstm network architectures to perform the volatility prediction. 
+We try three different architectures 
+  1. a simple one layer lstm,
+  2. a two layer lstm with additional dense layers, 
+  3. a model with a functional API that combines an lstm layer, appropriate for features with time lags, and dense layers which
+ are appropriate for features without time lags.
+* [GRU.ipynb](https://github.com/fogx/predicting-financial-volatility-project/blob/main/code/GRU.ipynb): similar to the LSTM notebook, but with GRU cells instead of LSTM cells.
+
 
 ## Authors:
 Erik Senn, Jule Schüttler, Leszek Wächter, Leon Wolf
