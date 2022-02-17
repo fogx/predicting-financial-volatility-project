@@ -1,9 +1,9 @@
 # Predicting realized volatility
 This ReadMe gives a quick overview of the project.
-The detailed report can be found in the notebook at code/Data_Description_and_Model_Evaluation.ipynb.
+The detailed report can be found in this notebook [Data_Description_and_Model_Evaluation.ipynb](https://github.com/fogx/predicting-financial-volatility-project/blob/main/Data_Description_and_Model_Evaluation.ipynb).
 
 ## Project Idea: 
-Forecast stock volatility tomorrow with stock and macroeconomic data from today and the past.
+Forecast stock volatility tomorrow with stock and macroeconomic data.
 
 ## What is financial (realized) volatility?
 Realized (return) volatility is the standard deviation of (daily) returns. Realized volatility describes the risk connected to a financial asset.
@@ -15,7 +15,7 @@ Realized (return) volatility is the standard deviation of (daily) returns. Reali
 * 	Additional features: open-close return (sign), VIX, Trading volume.
 
 ## Notebooks
-* Data_Description_and_Model_Evaluation.ipynb - Main report notebook.
+* [Data_Description_and_Model_Evaluation.ipynb](https://github.com/fogx/predicting-financial-volatility-project/blob/main/Data_Description_and_Model_Evaluation.ipynb): Main report notebook.
 Describes the project idea, literature and data. Compares predictions of the different models (from notebooks below) and concludes.
 * [data_preprocessing.ipynb](https://github.com/fogx/predicting-financial-volatility-project/blob/main/code/data_preprocessing.ipynb): data preprocessing.
 * [FFN.ipynb](https://github.com/fogx/predicting-financial-volatility-project/blob/main/code/FFN.ipynb): Trains feed-forward neural network model configurations.
